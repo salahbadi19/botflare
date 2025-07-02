@@ -290,47 +290,45 @@
     </div>
 
     <!-- Currency Selection -->
-<div class="currency-select">
-  <label for="currencySelect"><strong>اختر زوج العملة:</strong></label>
-  <select id="currencySelect">
-    <option value="">اختر زوجًا</option>
-    <!-- OTC Pairs Only -->
-    <option value="AED/CNY OTC">AED/CNY OTC</option>
-    <option value="AUD/CAD OTC">AUD/CAD OTC</option>
-    <option value="AUD/CHF OTC">AUD/CHF OTC</option>
-    <option value="AUD/USD OTC">AUD/USD OTC</option>
-    <option value="CAD/CHF OTC">CAD/CHF OTC</option>
-    <option value="CAD/JPY OTC">CAD/JPY OTC</option>
-    <option value="EUR/CHF OTC">EUR/CHF OTC</option>
-    <option value="EUR/JPY OTC">EUR/JPY OTC</option>
-    <option value="EUR/RUB OTC">EUR/RUB OTC</option>
-    <option value="EUR/USD OTC">EUR/USD OTC</option>
-    <option value="USD/ARS OTC">USD/ARS OTC</option>
-    <option value="AUD/JPY OTC">AUD/JPY OTC</option>
-  </select>
-</div>
+    <div class="currency-select">
+      <label for="currencySelect"><strong>اختر زوج العملة:</strong></label>
+      <select id="currencySelect">
+        <option value="">اختر زوجًا</option>
+        <option value="AED/CNY OTC">AED/CNY OTC</option>
+        <option value="AUD/CAD OTC">AUD/CAD OTC</option>
+        <option value="AUD/CHF OTC">AUD/CHF OTC</option>
+        <option value="AUD/USD OTC">AUD/USD OTC</option>
+        <option value="CAD/CHF OTC">CAD/CHF OTC</option>
+        <option value="CAD/JPY OTC">CAD/JPY OTC</option>
+        <option value="EUR/CHF OTC">EUR/CHF OTC</option>
+        <option value="EUR/JPY OTC">EUR/JPY OTC</option>
+        <option value="EUR/RUB OTC">EUR/RUB OTC</option>
+        <option value="EUR/USD OTC">EUR/USD OTC</option>
+        <option value="USD/ARS OTC">USD/ARS OTC</option>
+        <option value="AUD/JPY OTC">AUD/JPY OTC</option>
+      </select>
+    </div>
 
-<!-- Timeframe Dropdown -->
-<div class="timeframe-select">
-  <label for="timeframe"><strong>الإطار الزمني:</strong></label>
-  <select id="timeframe">
-    <option value="">اختر وقتًا</option>
-    <option value="5">5 ثوانٍ</option>
-    <option value="15">15 ثانية</option>
-    <option value="30">30 ثانية</option>
-    <option value="60">1 دقيقة</option>
-    <option value="120">2 دقيقة</option>
-    <option value="180">3 دقائق</option>
-    <option value="240">4 دقائق</option>
-    <option value="300">5 دقائق</option>
-    <option value="360">6 دقائق</option>
-    <option value="420">7 دقائق</option>
-    <option value="480">8 دقائق</option>
-    <option value="540">9 دقائق</option>
-    <option value="600">10 دقائق</option>
-  </select>
-</div>
-
+    <!-- Timeframe Dropdown -->
+    <div class="timeframe-select">
+      <label for="timeframe"><strong>الإطار الزمني:</strong></label>
+      <select id="timeframe">
+        <option value="">اختر وقتًا</option>
+        <option value="5">5 ثوانٍ</option>
+        <option value="15">15 ثانية</option>
+        <option value="30">30 ثانية</option>
+        <option value="60">1 دقيقة</option>
+        <option value="120">2 دقيقة</option>
+        <option value="180">3 دقائق</option>
+        <option value="240">4 دقائق</option>
+        <option value="300">5 دقائق</option>
+        <option value="360">6 دقائق</option>
+        <option value="420">7 دقائق</option>
+        <option value="480">8 دقائق</option>
+        <option value="540">9 دقائق</option>
+        <option value="600">10 دقائق</option>
+      </select>
+    </div>
 
     <!-- Generate Button -->
     <button class="generate-btn" id="generateBtn">Generate Signal</button>
@@ -341,23 +339,22 @@
       <p>جارٍ تحليل السوق...</p>
     </div>
 
-   <!-- Signal Card -->
-<div id="signalCard" class="signal-card">
-  <h2 id="signalType"></h2>
-  <p id="signalCurrency"></p>
-  <p id="signalTimeframe"></p>
-  <div class="countdown" id="countdown"></div>
-  <div class="contact-us-bottom">
-    إذا كنت تريد برمجة بوت أو موقع مشابه، يمكنك التواصل معي عبر:<br/>
-    <strong>
-      <a href="https://t.me/tatin34" target="_blank" style="display: inline-flex; align-items: center; text-decoration: none; color: #0088cc;">
-        <img src="telegram-icon.png" alt="Telegram" style="width: 18px; height: 18px; margin-right: 6px;">
-        @tatin34
-      </a>
-    </strong>
-  </div>
-</div>
-
+    <!-- Signal Card -->
+    <div id="signalCard" class="signal-card">
+      <h2 id="signalType"></h2>
+      <p id="signalCurrency"></p>
+      <p id="signalTimeframe"></p>
+      <div class="countdown" id="countdown"></div>
+      <div class="contact-us-bottom">
+        إذا كنت تريد برمجة بوت أو موقع مشابه، يمكنك التواصل معي عبر:<br/>
+        <strong>
+          <a href=" https://t.me/tatin34 " target="_blank" style="display: inline-flex; align-items: center; text-decoration: none; color: #0088cc;">
+            <img src="telegram-icon.png" alt="Telegram" style="width: 18px; height: 18px; margin-right: 6px;">
+            @tatin34
+          </a>
+        </strong>
+      </div>
+    </div>
 
     <!-- Notification -->
     <div class="notification" id="notification">⚠️ يرجى تحديد النظام الأساسي أولاً.</div>
@@ -367,8 +364,8 @@
       <a href="https://t.me/BotSignalsHub " target="_blank">
         <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg " alt="Telegram"/>
       </a>
-      <a href="https://web.facebook.com/profile.php?id=100092998067167 " target="_blank">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Facebook_icon.svg " alt="Facebook"/>
+      <a href="https://web.facebook.com/profile.php?id=100092998067167" target="_blank">
+        <img src=" https://upload.wikimedia.org/wikipedia/commons/1/1b/Facebook_icon.svg " alt="Facebook"/>
       </a>
       <a href="https://www.instagram.com/salah__badi__19/ " target="_blank">
         <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png " alt="Instagram"/>
